@@ -1,0 +1,141 @@
+.navbar {
+    font-family: 'Tangerine', serif;
+}
+.library-name {
+    pointer-events: none;
+}
+li {
+    font-size: x-large;
+}
+::-webkit-input-placeholder {
+    font-style: italic;
+}
+:-moz-placeholder {
+    font-style: italic;
+}
+::-moz-placeholder {
+    font-style: italic;
+}
+:-ms-input-placeholder {
+    font-style: italic;
+}
+
+img.book-image {
+    margin-right: 5px;
+}
+
+#search-text, #check-in-text, #borrower-search-text {
+    display: inline;
+    width: 92%;
+    color: #3c3c3c;
+    font-family: FreeMono, monospace;
+}
+#total-fine {
+    display: inline;
+    color: #3c3c3c;
+    width: 50%;
+    font-family: FreeMono, monospace;
+}
+.navbar-brand {
+    font-size: xx-large;
+}
+#register-block {
+    font-family: FreeMono, monospace;
+    background-color: aliceblue;
+    margin-left: -13px;
+    padding-left: 30px;
+}
+#register-block .form-control {
+    height: 30px;
+}
+#register-block label, #fine-payment-block label {
+    font-family: FreeMono, monospace;
+    font-size: 11px;
+    color: darkslategrey;
+}
+#phone-number-block .form-control {
+    display: inline;
+    width: 15%;
+    height: 30px;
+}
+.register-btn-block {
+    text-align: right;
+    width: 100%;
+}
+.register-btn-block .btn, #update-fine-amounts {
+    font-family: FreeMono, monospace;
+    font-size: 11px;
+}
+.search-block-heading h3 {
+    font-family: FreeMono, monospace;
+    color: grey;
+}
+.div-gap {
+    min-height: 20px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+#success-message-block, #error-message-block {
+    z-index: 700;
+    position: absolute;
+    min-width: 10px;
+    left:0;
+    right:0;
+    top: 52px;
+    margin: auto;
+    font-family: FreeMono, monospace;
+    font-size: 11px;
+}
+#book-list, #checkin-book-list, #fine-list {
+    margin: 14px;
+    width: 93%;
+}
+#book-list li > span, #checkin-book-list li > span, #fine-list li > span {
+    font-family: FreeMono, monospace;
+    font-size: 11px;
+    margin-right: 10px;
+    font-weight: 600;
+    padding: 5px;
+    background: aliceblue;
+    border-radius: 3px;
+}
+.btn-checkout > span, .btn-check-in > span, .btn-pay-fine > span {
+    font-size: 12px;
+}
+
+#exampleModalLabel {
+    font-family: FreeMono, monospace;
+}
+
+.modal-body > label, .modal-footer > button {
+    font-family: FreeMono, monospace;
+    font-size: 11px;
+}
+.modal-content {
+    width: 500px
+}
+
+.modal-footer {
+    padding: 5px;
+    background-color: #f2f2f2;
+}
+
+.modal-header {
+    background-color: aliceblue;
+    padding: 10px;
+}
+.field-required {
+    color:red;
+    font-size: 9px;
+}
+.required-info {
+    font-family: FreeMono, monospace;
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 44px;
+    color: grey;
+}
+
