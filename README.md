@@ -14,5 +14,5 @@ Context-path:library-management
 
 # Technical Requirements
 Java version: JDK 1.8  
-Framework: Spring MVC (vesion: 4.3.14.RELEASE)  
+Framework: Spring MVC (version: 4.3.14.RELEASE)  
 Build Tool: Maven (apache-maven-3.5.2)  
