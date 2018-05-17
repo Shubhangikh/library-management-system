@@ -16,3 +16,4 @@ Context-path:library-management
 Java version: JDK 1.8  
 Framework: Spring MVC (version: 4.3.14.RELEASE)  
 Build Tool: Maven (apache-maven-3.5.2)  
+Database: MySQL
